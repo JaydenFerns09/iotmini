@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IOT Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="navbar">
+        <img
+          src="logo.png"
+          alt="logo"
+        />
+      </div>
+
+      <div id="content">
+        <h1>Home Safety System</h1>
+        <h4>By Jayden, Jaideep and Vedavyas</h4>
+        <h4>Guided by Dr. Jason Elroy Martis, Associate Professor ISE</h4>
+      </div>
+
+      <div id="contentstart">
+        <p>
+          Hey everyone, welcome to my home safety DIY project! I'm thrilled to share how I've enhanced my creation with a Flame Sensor for fire detection and an IR Sensor at the door to keep an eye on entries. Let me walk you through it! With the Flame Sensor, my project becomes a vigilant guardian against potential fire hazards. Whether I'm at home or away, the sensor intelligently detects any signs of fire, ensuring a quick and automated response to keep my surroundings safe. It's a crucial addition to my home safety features. Now, let's talk about the IR Sensor at the door. This sensor adds an extra layer of security by monitoring any entries. If someone approaches the door, the IR sensor detects their presence, providing an extra layer of awareness and security. It's like having a virtual watchman for my home! The integration process was seamless. I carefully incorporated the Flame Sensor into my setup to ensure it covers areas susceptible to fire risks. Additionally, the IR Sensor is strategically placed at the entrance, allowing it to effectively monitor movements. Tweaking the software to handle communication with both sensors ensures a smooth and intelligent response. This home safety project is now a comprehensive solution, blending fire detection and intrusion monitoring seamlessly. The flexibility of this DIY setup empowers me to tailor my safety features according to my unique needs, making it an ideal addition to my home. Join me in this journey where DIY electronics meet practical safety solutions. I'm creating a project that aligns perfectly with my vision of a secure home, leveraging the power of flame detection and intelligent entry monitoring to enhance the safety of my living space.<br>
+          <br />
+        </p>
+        <hr />
+      </div>
+
+      <div id="steps">
+        <div id="step1">
+          <h1>Step 1: Gather Components</h1>
+
+          <img src="collage.png" alt="photo" style="height: 30rem; width: 30rem; margin: auto; display: block;"/>
+          <div>
+            <h3>1. ESP32 Dev Module</h3>
+            <p>
+              The heart of my project, enabling wireless communication for the enhanced DIY home safety system.
+            </p>
+          </div>
+
+          <div>
+            <h3>2. Flame Sensor</h3>
+            <p>
+              Critical for detecting potential fire hazards, receiving UHF ASK demodulated signals. Supports ASK and OOK modulation, essential for real-time signal analysis.
+            </p>
+          </div>
+
+          <div>
+            <h3>3. IR Sensor</h3>
+            <p>
+              Empowers the system with RFID capabilities, facilitating contactless identification at the door. Enables seamless interaction with RFID-enabled systems for enhanced security.
+            </p>
+          </div>
+
+          <div>
+            <h3>4. Other Components</h3>
+            <ul style="list-style-type: none;">
+              <li>USB connectors for charging and power supply.</li>
+              <li>Jumper cables for connecting components.</li>
+            </ul>
+          </div>
+          <hr />
+        </div>
+       </div>
+        <div id="steps">
+          <div id="step1">
+            <h1>Step 2: Circuit Design and Assembly</h1>
+            <img src="hardware.png" alt="photo" width="900" height="500"/>
+            <p>
+             In this next phase of my home safety project, I'm getting down to the details of setting up the electronic circuit. Starting with a clear plan—called a schematic—I'm outlining how each component connects. Thinking about things like power, data lines, and pin specifics. Once I've got that roadmap, I'm placing the components on a board, making sure it's neat and organized for efficient use of space. Importantly, in my project, there's no soldering involved. This step focuses on the hassle-free assembly of the circuit components, ensuring simplicity and ease of setup for a reliable home safety system.
+            </p>
+          </div>
+        </div>
+        <hr />
+      </div>
+    <div id="steps">
+      <div id="step1">
+        <h1>Step 3: Programming and Integration</h1>
+        <div style="display: flex;">
+          <img src="code1.png" alt="photo" width="900" height="500"/>
+          <img src="code2.png" alt="photo" width="900" height="500"/>
+        </div>
+        <p>
+          Alright, let's dive into the next phase—setting up and connecting everything. First things first, I'm programming the ESP32 microcontroller, teaching it some wireless tricks and making sure all the components can talk to each other. While I'm at it, tweaking the code for my home safety system to handle the new features like RFID and better RF signal analysis. Once the code is looking good, I'm bringing in Blynk libraries—they help me control and monitor things right from my phone. Last step is uploading the final code to both my home safety system and the ESP32, making sure everything meshes together smoothly.
+        </p>
+      </div>
+    </div>
+        <hr />
+
+        <div id="steps">
+          <div id="step1">
+            <h1>Step 4: Blynk Optimization</h1>
+            <img class="temp" src="blynk.png" alt="photo" height="500" style="display: block; margin-left: 24rem;"/>
+            <p>
+             
+In making Blynk work better for my home safety project, I'm tweaking things to make the app easier to use. I'm adjusting the Blynk app to let me control and keep an eye on my safety system without any hassle. I'm picking out the most important stuff so it's right there on the Blynk dashboard. To keep things running smoothly and not waste energy, I'm figuring out smart ways to update data in real-time. On the tech side, I'm cutting down on delays and using some tricks to make sure everything happens without a hitch. And I'm making sure to keep everything up to date so that Blynk does its job well in my project. This way, Blynk becomes a handy and easy-to-use part of my home safety system.
+          </div>
+        </div>
+
+        <hr />
+      </div>
+
+      <div id="steps">
+        <div id="step1">
+            <h1>Step 5: Final Assembly and Testing</h1>
+            <img src="overall.png" alt="photo" width="900" height="500"/>
+            <p>
+              As we approach the finish line, it's time to bring everything together for the final assembly and some serious testing. I'm securing all the components neatly in a protective enclosure, making sure everything looks slick and is well-organized. This is where the device takes its final form—a polished and streamlined design that's ready for action. With the physical assembly done, it's testing time. I'm checking every nook and cranny to ensure RFID is doing its thing, the wireless communication is on point, and the Blynk integration is smooth. This phase is all about making sure my home safety setup operates just like I planned—meeting all the specs and doing what I need it to do. Oh, and I'm keeping detailed notes on the assembly and testing process—it's handy for any tweaks or future projects.
+            </p>
+          </div>
+        </div>
+        </div>
+
+        <hr />
+      </div>
+
+      <div id="bigfooter">
+        <div id="footer">
+          <img
+            src="logo.png"
+            alt="logo"
+          />
+
+          <div class="listing1">
+            <h2>Categories</h2>
+            <ul>
+              <li><a href="#">Circuits</a></li>
+              <li><a href="#">Workshop</a></li>
+              <li><a href="#">craft</a></li>
+              <li><a href="#">cooking</a></li>
+            </ul>
+          </div>
+
+          <div class="listing1">
+            <h1></h1>
+            <ul>
+              <li><a href="#">Circuits</a></li>
+              <li><a href="#">Workshop</a></li>
+              <li><a href="#">craft</a></li>
+              <li><a href="#">cooking</a></li>
+            </ul>
+          </div>
+
+          <div class="listing1">
+            <h2>About US</h2>
+            <ul>
+              <li><a href="#">Circuits</a></li>
+              <li><a href="#">Workshop</a></li>
+              <li><a href="#">craft</a></li>
+              <li><a href="#">cooking</a></li>
+            </ul>
+          </div>
+
+          <div class="listing1">
+            <h2>Resources</h2>
+            <ul>
+              <li><a href="#">Circuits</a></li>
+              <li><a href="#">Workshop</a></li>
+              <li><a href="#">craft</a></li>
+              <li><a href="#">cooking</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+
+        <p>
+          Terms of Service| Privacy Statement| Privacy settings| Legal Notices &
+          Trademarks
+        </p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
